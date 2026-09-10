@@ -49,18 +49,11 @@ notes.md
 skills-lock.json
 make_tts_patch.py
 
-# --- episode editorial content -----------------------------------------------
-# This repo publishes the ENGINE, not the channel's writing. Scripts, narration,
-# titles, descriptions and chapter lists are editorial content; excluding them
-# also keeps the pseudonymous channel unlinked from this repo's author.
-# The pipeline code, gates and components stay -- those are the technical work.
-episodes/*/script.yaml
-episodes/*/narration.txt
-episodes/*/narration.draft.txt
-episodes/*/packaging.md
-episodes/*/notes.md
-episodes/*/bench/
-episodes/*/thumbnail/
+# --- episodes ------------------------------------------------------------------
+# This repo publishes the ENGINE, not the channel's videos. Nobody cloning this
+# needs another channel's scripts, narration, timings or renders -- they make
+# their own episodes in this folder. Excluded wholesale.
+episodes/
 
 # --- dependencies / build ----------------------------------------------------
 node_modules
