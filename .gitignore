@@ -1,0 +1,124 @@
+# =============================================================================
+# What this repo IS: the source that produces the videos -- scripts, Remotion
+# components, the gate suite, the skills, the docs.
+#
+# What this repo is NOT: the videos. Every rendered frame, master, audio file,
+# b-roll clip and fetched screenshot is DERIVED and is excluded below. A clone
+# of this repo regenerates them; it does not download them. The working tree is
+# ~8.5 GB and almost all of that is output.
+#
+# GitHub hard-rejects any single file over 100 MB, and this tree contains a
+# 452 MB wav, a 208 MB master and two mp4s over 100 MB. Those limits are the
+# floor, not the reason -- the reason is that generated output does not belong
+# in source control.
+# =============================================================================
+
+# --- secrets -----------------------------------------------------------------
+# .env holds ELEVENLABS_API_KEY, ELEVENLABS_VOICE_ID and PEXELS_KEY.
+# See README "Where the API keys go". NEVER commit this file.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# --- identity / anonymity ----------------------------------------------------
+# The channel is pseudonymous (CLAUDE.md hard rule 1). This file holds the
+# creator's REAL identity strings so the anonymity gate can grep for them --
+# publishing it would defeat the exact thing it protects.
+#
+# NOTE: git only treats '#' as a comment at the START of a line. Both patterns
+# below used to carry trailing inline comments, which made them match nothing --
+# so the identity file, and every fetched capture, were silently committable.
+# Keep comments on their own lines.
+capture/forbidden.json
+capture/out/
+
+# --- internal / private working material --------------------------------------
+# Personal operating notes, channel strategy, topic pipeline and unpublished
+# research. None of this is engine code and none of it is for public reading.
+instructions-for-me/
+startup-research/
+claude gaurdrails/
+channel-strategy.md
+topic-research.md
+GOALS.md
+notes.md
+skills-lock.json
+make_tts_patch.py
+
+# --- episode editorial content -----------------------------------------------
+# This repo publishes the ENGINE, not the channel's writing. Scripts, narration,
+# titles, descriptions and chapter lists are editorial content; excluding them
+# also keeps the pseudonymous channel unlinked from this repo's author.
+# The pipeline code, gates and components stay -- those are the technical work.
+episodes/*/script.yaml
+episodes/*/narration.txt
+episodes/*/narration.draft.txt
+episodes/*/packaging.md
+episodes/*/notes.md
+episodes/*/bench/
+episodes/*/thumbnail/
+
+# --- dependencies / build ----------------------------------------------------
+node_modules
+dist
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+
+# --- rendered output ---------------------------------------------------------
+# Matches any directory named `out` at any depth (episodes/*/out/, out/draft/).
+out
+out_*.mp4
+*.mp4
+*.mov
+*.webm
+
+# --- audio -------------------------------------------------------------------
+# Narration masters, the ambient bed, and every synthetic SFX cue. The cues and
+# the bed are REPRODUCIBLE: exact ffmpeg commands are in docs/research/
+# sfx-palette.md and episodes/*/credits.md. Narration regenerates from
+# script.yaml via make_tts.py.
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.raw
+*.draft.mp3
+narration.wav.json
+
+# --- generated timing / caches -----------------------------------------------
+# .tts_cache holds per-word alignment keyed by a hash of the beat text; it is
+# rebuilt on the next make_tts.py run.
+.tts_cache/
+props.json
+words.json
+
+# timing.json is NOT ignored, despite being generated.
+# `src/episodes.ts` imports it directly, so ignoring it means a fresh clone
+# fails `tsc` on line 30 before it can do anything else -- a repo that does not
+# typecheck out of the box is worse than one that ships a 4 KB generated file.
+# It is small, carries no identity, and is the build input the registry needs.
+
+# --- fetched media -----------------------------------------------------------
+# Pexels b-roll and source screenshots. Licence-clean but not ours to
+# redistribute; every one is credited with its URL in episodes/*/credits.md,
+# so they are re-fetchable rather than vendored.
+public/ep-*/
+public/sfx/
+assets/
+assets-originals/
+*.png
+*.jpg
+*.jpeg
+*.gif
+!docs/**/*.png
+
+# --- local agent / editor state ----------------------------------------------
+.claude/scheduled_tasks.lock
+.claude/goal/
+*.log

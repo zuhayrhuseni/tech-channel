@@ -1,0 +1,118 @@
+{
+  "fps": 30,
+  "generated": "2026-09-03T12:52:15.520Z",
+  "assets": {
+    "whiteboard_world": {
+      "broll": {
+        "file": "ep-cpu-waits-on-memory/broll/5532f75657fa.mp4",
+        "kind": "video",
+        "w": 1920,
+        "h": 1080,
+        "credit": "ep-cpu-waits-on-memory/broll/5532f75657fa.mp4 — video \"whiteboard interview engineer marker\" by Pavel Danilyuk — https://www.pexels.com/video/woman-writing-in-the-whiteboard-6339862/ — Pexels License (no attribution required; retrieved 2026-09-03)",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/video/woman-writing-in-the-whiteboard-6339862/"
+      }
+    },
+    "latency_ladder": {
+      "receipts": [
+        {
+          "file": "ep-cpu-waits-on-memory/shot/940a0c6a0313.png",
+          "w": 3840,
+          "h": 2160,
+          "sourceUrl": "https://www.7-cpu.com/cpu/Skylake.html",
+          "circle": null,
+          "land_at": "l3"
+        }
+      ]
+    },
+    "google_receipts": {
+      "kind": "browser_capture",
+      "file": "ep-cpu-waits-on-memory/shot/0827070c8b44.png",
+      "w": 1545,
+      "h": 2000,
+      "sourceUrl": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44271.pdf",
+      "circle": null,
+      "land_at": "paper"
+    },
+    "drepper_experiment": {
+      "receipts": [
+        {
+          "file": "ep-cpu-waits-on-memory/shot/c0799a676488.png",
+          "w": 1545,
+          "h": 2000,
+          "sourceUrl": "https://www.akkadia.org/drepper/cpumemory.pdf",
+          "circle": null,
+          "land_at": null
+        }
+      ]
+    },
+    "modern_replication": {
+      "receipts": [
+        {
+          "file": "ep-cpu-waits-on-memory/shot/2e6f551330ec.png",
+          "w": 3840,
+          "h": 2160,
+          "sourceUrl": "https://johnnysswlab.com/the-quest-for-the-fastest-linked-list/",
+          "circle": null,
+          "land_at": null
+        }
+      ]
+    },
+    "trick_question": {
+      "receipts": [
+        {
+          "file": "ep-cpu-waits-on-memory/shot/7a2d3159024d.png",
+          "w": 1477,
+          "h": 2000,
+          "sourceUrl": "https://www.stroustrup.com/Software-for-infrastructure.pdf",
+          "circle": null,
+          "land_at": null
+        }
+      ]
+    },
+    "honest_walkback": {
+      "receipts": [
+        {
+          "file": "ep-cpu-waits-on-memory/shot/a3cc12dc095c.png",
+          "w": 3840,
+          "h": 2160,
+          "sourceUrl": "https://isocpp.org/blog/2014/06/stroustrup-lists",
+          "circle": null,
+          "land_at": null
+        }
+      ]
+    },
+    "three_rules": {
+      "broll": {
+        "file": "ep-cpu-waits-on-memory/broll/7cc767d70c09.mp4",
+        "kind": "video",
+        "w": 1366,
+        "h": 720,
+        "credit": "ep-cpu-waits-on-memory/broll/7cc767d70c09.mp4 — video \"clean desk keyboard typing close\" by cottonbro studio — https://www.pexels.com/video/flatlay-video-of-computer-5190556/ — Pexels License (no attribution required; retrieved 2026-09-03)",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/video/flatlay-video-of-computer-5190556/"
+      }
+    },
+    "real_system_payoff": {
+      "broll": {
+        "file": "ep-cpu-waits-on-memory/broll/2c5be2930b0e.mp4",
+        "kind": "video",
+        "w": 1920,
+        "h": 1080,
+        "credit": "ep-cpu-waits-on-memory/broll/2c5be2930b0e.mp4 — video \"supercomputer data center server racks\" by ALL IZ Well — https://www.pexels.com/video/database-storage-of-a-server-5028622/ — Pexels License (no attribution required; retrieved 2026-09-03)",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/video/database-storage-of-a-server-5028622/"
+      },
+      "receipts": [
+        {
+          "file": "ep-cpu-waits-on-memory/shot/d2747ebea207.png",
+          "w": 3840,
+          "h": 2160,
+          "sourceUrl": "https://arxiv.org/abs/1611.02665",
+          "circle": null,
+          "land_at": null
+        }
+      ]
+    }
+  }
+}

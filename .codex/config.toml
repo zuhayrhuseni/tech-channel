@@ -1,0 +1,13 @@
+# Project-scoped MCP servers for the AiJunkie workspace.
+# Authentication is handled through each provider's OAuth flow; no secrets
+# belong in this file or in the repository.
+
+[mcp_servers.figma]
+url = "https://mcp.figma.com/mcp"
+auth = "oauth"
+enabled = true
+
+[mcp_servers.recraft]
+url = "https://mcp.recraft.ai/mcp"
+auth = "oauth"
+enabled = true

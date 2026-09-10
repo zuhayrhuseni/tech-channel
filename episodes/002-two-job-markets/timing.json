@@ -1,0 +1,394 @@
+{
+ "fps": 30,
+ "durationMs": 485344,
+ "audioMs": 485344,
+ "source": "elevenlabs-draft",
+ "beats": [
+  {
+   "id": "hook",
+   "startMs": 0,
+   "startFrame": 0,
+   "marks": {
+    "up": {
+     "word": "up",
+     "ms": 12063,
+     "frame": 362
+    },
+    "down": {
+     "word": "Down",
+     "ms": 17357,
+     "frame": 521
+    }
+   }
+  },
+  {
+   "id": "stakes_argument",
+   "startMs": 21826,
+   "startFrame": 655,
+   "marks": {}
+  },
+  {
+   "id": "stakes_why_care",
+   "startMs": 37175,
+   "startFrame": 1115,
+   "marks": {}
+  },
+  {
+   "id": "stakes_roadmap",
+   "startMs": 50700,
+   "startFrame": 1521,
+   "marks": {
+    "four": {
+     "word": "Four",
+     "ms": 51443,
+     "frame": 1543
+    }
+   }
+  },
+  {
+   "id": "s1_open",
+   "startMs": 62937,
+   "startFrame": 1888,
+   "marks": {}
+  },
+  {
+   "id": "s1_signalfire",
+   "startMs": 66652,
+   "startFrame": 2000,
+   "marks": {
+    "down25": {
+     "word": "twenty-five",
+     "ms": 82303,
+     "frame": 2469
+    }
+   }
+  },
+  {
+   "id": "s1_but_eng",
+   "startMs": 84764,
+   "startFrame": 2543,
+   "marks": {
+    "down11": {
+     "word": "eleven.",
+     "ms": 88166,
+     "frame": 2645
+    },
+    "share46": {
+     "word": "forty-six",
+     "ms": 89768,
+     "frame": 2693
+    },
+    "share55": {
+     "word": "fifty-five",
+     "ms": 91870,
+     "frame": 2756
+    }
+   }
+  },
+  {
+   "id": "s1_startups",
+   "startMs": 96792,
+   "startFrame": 2904,
+   "marks": {
+    "up7": {
+     "word": "seven",
+     "ms": 99916,
+     "frame": 2997
+    }
+   }
+  },
+  {
+   "id": "s1_bls",
+   "startMs": 108449,
+   "startFrame": 3253,
+   "marks": {
+    "bls15": {
+     "word": "fifteen",
+     "ms": 114092,
+     "frame": 3423
+    }
+   }
+  },
+  {
+   "id": "s1_programmers_setup",
+   "startMs": 131193,
+   "startFrame": 3936,
+   "marks": {}
+  },
+  {
+   "id": "s1_programmers",
+   "startMs": 139807,
+   "startFrame": 4194,
+   "marks": {
+    "minus6": {
+     "word": "decline",
+     "ms": 147667,
+     "frame": 4430
+    }
+   }
+  },
+  {
+   "id": "s1_punchline",
+   "startMs": 152392,
+   "startFrame": 4572,
+   "marks": {}
+  },
+  {
+   "id": "s1_rehook",
+   "startMs": 164444,
+   "startFrame": 4933,
+   "marks": {}
+  },
+  {
+   "id": "s2_second_number",
+   "startMs": 170539,
+   "startFrame": 5116,
+   "marks": {
+    "down65": {
+     "word": "sixty-five",
+     "ms": 179908,
+     "frame": 5397
+    }
+   }
+  },
+  {
+   "id": "s2_hold_it",
+   "startMs": 186584,
+   "startFrame": 5598,
+   "marks": {
+    "both": {
+     "word": "more",
+     "ms": 189742,
+     "frame": 5692
+    }
+   }
+  },
+  {
+   "id": "s2_what_it_means",
+   "startMs": 195547,
+   "startFrame": 5866,
+   "marks": {}
+  },
+  {
+   "id": "s2_nyfed",
+   "startMs": 199924,
+   "startFrame": 5998,
+   "marks": {
+    "csrate": {
+     "word": "six",
+     "ms": 209003,
+     "frame": 6270
+    },
+    "allgrads": {
+     "word": "Around",
+     "ms": 215331,
+     "frame": 6460
+    },
+    "allcollege": {
+     "word": "closer",
+     "ms": 220079,
+     "frame": 6602
+    }
+   }
+  },
+  {
+   "id": "s2_inversion",
+   "startMs": 221693,
+   "startFrame": 6651,
+   "marks": {
+    "higher": {
+     "word": "higher",
+     "ms": 224526,
+     "frame": 6736
+    }
+   }
+  },
+  {
+   "id": "s2_resolve",
+   "startMs": 230156,
+   "startFrame": 6905,
+   "marks": {}
+  },
+  {
+   "id": "s3_question",
+   "startMs": 237389,
+   "startFrame": 7122,
+   "marks": {}
+  },
+  {
+   "id": "s3_honesty",
+   "startMs": 240605,
+   "startFrame": 7218,
+   "marks": {}
+  },
+  {
+   "id": "s3_case_for",
+   "startMs": 249533,
+   "startFrame": 7486,
+   "marks": {
+    "bounded": {
+     "word": "bounded,",
+     "ms": 258984,
+     "frame": 7770
+    },
+    "removed": {
+     "word": "Take",
+     "ms": 264639,
+     "frame": 7939
+    }
+   }
+  },
+  {
+   "id": "s3_layoff_cites",
+   "startMs": 269503,
+   "startFrame": 8085,
+   "marks": {}
+  },
+  {
+   "id": "s3_but_timing",
+   "startMs": 280347,
+   "startFrame": 8410,
+   "marks": {}
+  },
+  {
+   "id": "s3_indeed",
+   "startMs": 284202,
+   "startFrame": 8526,
+   "marks": {
+    "pct275": {
+     "word": "twenty-seven",
+     "ms": 291958,
+     "frame": 8759
+    },
+    "window": {
+     "word": "between",
+     "ms": 296636,
+     "frame": 8899
+    }
+   }
+  },
+  {
+   "id": "s3_before_chatgpt",
+   "startMs": 302802,
+   "startFrame": 9084,
+   "marks": {}
+  },
+  {
+   "id": "s3_alternative",
+   "startMs": 311787,
+   "startFrame": 9354,
+   "marks": {
+    "rates": {
+     "word": "zero",
+     "ms": 316710,
+     "frame": 9501
+    },
+    "bubble": {
+     "word": "everyone",
+     "ms": 318092,
+     "frame": 9543
+    },
+    "correction": {
+     "word": "the",
+     "ms": 326974,
+     "frame": 9809
+    }
+   }
+  },
+  {
+   "id": "s3_surprise",
+   "startMs": 335101,
+   "startFrame": 10053,
+   "marks": {
+    "rebound": {
+     "word": "up",
+     "ms": 341207,
+     "frame": 10236
+    },
+    "overall": {
+     "word": "fell",
+     "ms": 344597,
+     "frame": 10338
+    }
+   }
+  },
+  {
+   "id": "s3_rebound_caveat",
+   "startMs": 345572,
+   "startFrame": 10367,
+   "marks": {}
+  },
+  {
+   "id": "s3_signalfire_quote",
+   "startMs": 358552,
+   "startFrame": 10757,
+   "marks": {}
+  },
+  {
+   "id": "s3_verdict",
+   "startMs": 365959,
+   "startFrame": 10979,
+   "marks": {
+    "mostly": {
+     "word": "mostly",
+     "ms": 372995,
+     "frame": 11190
+    }
+   }
+  },
+  {
+   "id": "s3_uncertainty",
+   "startMs": 385940,
+   "startFrame": 11578,
+   "marks": {}
+  },
+  {
+   "id": "payoff_frame",
+   "startMs": 391118,
+   "startFrame": 11734,
+   "marks": {}
+  },
+  {
+   "id": "payoff_one",
+   "startMs": 394241,
+   "startFrame": 11827,
+   "marks": {
+    "unanswerable": {
+     "word": "\"Is",
+     "ms": 395228,
+     "frame": 11857
+    }
+   }
+  },
+  {
+   "id": "payoff_two",
+   "startMs": 409821,
+   "startFrame": 12295,
+   "marks": {}
+  },
+  {
+   "id": "payoff_three",
+   "startMs": 432983,
+   "startFrame": 12989,
+   "marks": {
+    "vacuum": {
+     "word": "shortage",
+     "ms": 441377,
+     "frame": 13241
+    }
+   }
+  },
+  {
+   "id": "payoff_limit",
+   "startMs": 454438,
+   "startFrame": 13633,
+   "marks": {}
+  },
+  {
+   "id": "close",
+   "startMs": 463575,
+   "startFrame": 13907,
+   "marks": {}
+  }
+ ]
+}
