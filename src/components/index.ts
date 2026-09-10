@@ -27,12 +27,9 @@ export { MemoryGrid, gridDockScale } from "./MemoryGrid";
 export type { MemoryGridProps, MemoryGridMode } from "./MemoryGrid";
 export { ReceiptPanel } from "./ReceiptPanel";
 export type { ReceiptPanelProps } from "./ReceiptPanel";
-export { RatioMorph } from "./RatioMorph";
-export type { RatioMorphProps, RatioMorphStep } from "./RatioMorph";
-export { DrepperChart } from "./DrepperChart";
-export type { DrepperChartProps, DrepperStep } from "./DrepperChart";
-// Shared chart geometry — DrepperChart and RatioMorph must agree or the beat
-// 9 -> 10 morph becomes a jump cut. Import from here, never re-declare.
+// Shared chart geometry. Any two charts that morph into one another must agree
+// on these numbers or the transition becomes a jump cut. Import from here,
+// never re-declare.
 export * as chartGeom from "./chartGeom";
 export { SfxLayer } from "./SfxLayer";
 export type { SfxLayerProps, SfxEvent } from "./SfxLayer";

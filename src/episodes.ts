@@ -22,12 +22,12 @@
  * discovering it in a gate's output.
  */
 import {
-  E005_BEATS,
-  E005_DURATION,
-  e005Schedule,
-  e005SfxEvents,
-} from "./e005/Episode005";
-import e005Timing from "../episodes/005-cpu-waits-on-memory/timing.json";
+  EXAMPLE_BEATS,
+  EXAMPLE_DURATION,
+  EXAMPLE_FPS,
+  exampleSchedule,
+  exampleSfxEvents,
+} from "./example/ExampleEpisode";
 
 export interface EpisodeTools {
   /** Registry key, e.g. `e005`. */
@@ -50,24 +50,24 @@ export interface EpisodeTools {
   /** Composition length in frames — the SAME derivation the render asserts. */
   duration: number;
   fps: number;
-  schedule: typeof e005Schedule;
-  sfxEvents: typeof e005SfxEvents;
-  beats: typeof E005_BEATS;
+  schedule: typeof exampleSchedule;
+  sfxEvents: typeof exampleSfxEvents;
+  beats: typeof EXAMPLE_BEATS;
 }
 
 export const EPISODES: Record<string, EpisodeTools> = {
-  e005: {
-    id: "e005",
-    composition: "Episode005",
-    dir: "episodes/005-cpu-waits-on-memory",
-    sceneDir: "src/e005/scenes",
-    srcRoot: "src/e005",
-    planSrc: "src/e005/Episode005.tsx",
-    duration: E005_DURATION,
-    fps: e005Timing.fps,
-    schedule: e005Schedule,
-    sfxEvents: e005SfxEvents,
-    beats: E005_BEATS,
+  example: {
+    id: "example",
+    composition: "ExampleEpisode",
+    dir: "episodes/000-example",
+    sceneDir: "src/example",
+    srcRoot: "src/example",
+    planSrc: "src/example/ExampleEpisode.tsx",
+    duration: EXAMPLE_DURATION,
+    fps: EXAMPLE_FPS,
+    schedule: exampleSchedule,
+    sfxEvents: exampleSfxEvents,
+    beats: EXAMPLE_BEATS,
   },
 };
 
@@ -75,7 +75,7 @@ export const EPISODES: Record<string, EpisodeTools> = {
  * The episode every script falls back to when argv says nothing. This is what
  * keeps every existing ep005 invocation in the repo working unchanged.
  */
-export const DEFAULT_EPISODE = "e005";
+export const DEFAULT_EPISODE = "example";
 
 /**
  * Pick the episode out of argv.
